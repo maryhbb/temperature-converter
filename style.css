@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background: linear-gradient(to left bottom, lightgreen, lightblue);
+    background: linear-gradient(to left bottom, rgb(0, 162, 255), lightblue);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: monospace;
-    color: darkcyan;
+    color: rgb(4, 136, 245);
   }
   
   .container {
@@ -41,7 +41,7 @@ body {
     outline: none;
     background: rgba(255, 255, 255, 0.3);
     border-color: rgba(255, 255, 255, 0.5);
-    color: darkgreen;
+    color: darkblue;
     font-size: 18px;
   }
   
