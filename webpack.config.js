@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: [new HtmlWebpackPlugin(
     {
-      title: "Digital Clock",
+      title: "Temperature Converter",
       template: "src/index.html",
     }
   )],
