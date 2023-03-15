@@ -1,13 +1,11 @@
 import css from "./style.css";
 
-
 const celsiusEl = document.getElementById("celsius");
 const fahrenheitEl = document.getElementById("fahrenheit");
 const kelvinEl = document.getElementById("kelvin");
 
- export function computeTemp(event) {
-
-  console.log("aaaaaaaaa")
+export function computeTemp(event) {
+  console.log("aaaaaaaaa");
   const currentValue = +event.target.value;
   const currentUnit = event.target.name;
 
@@ -22,7 +20,6 @@ const kelvinEl = document.getElementById("kelvin");
     fahrenheitEl.value = ((currentValue - 273.32) * 1.8 + 32).toFixed(2);
   }
 }
-
 
 // function computeTemp(event) {
 //     const currentValue = +event.target.value;
