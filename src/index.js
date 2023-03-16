@@ -10,14 +10,20 @@ export function computeTemp(event) {
   const currentUnit = event.target.name;
 
   if (currentUnit === "celsius") {
+
     kelvinEl.value = (currentValue + 273.32).toFixed(2);
     fahrenheitEl.value = (currentValue * 1.8 + 32).toFixed(2);
+
   } else if (currentUnit === "fahrenheit") {
+
     celsiusEl.value = ((currentValue - 32) / 1.8).toFixed(2);
     kelvinEl.value = ((currentValue - 32) / 1.8 + 273.32).toFixed(2);
+
   } else if (currentUnit === "kelvin") {
+
     celsiusEl.value = (currentValue - 273.32).toFixed(2);
     fahrenheitEl.value = ((currentValue - 273.32) * 1.8 + 32).toFixed(2);
+    
   }
 }
 
