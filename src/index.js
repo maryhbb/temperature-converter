@@ -5,7 +5,7 @@ const fahrenheitEl = document.getElementById("fahrenheit");
 const kelvinEl = document.getElementById("kelvin");
 
 export function computeTemp(event) {
-  console.log("aaaaaaaaa");
+
   const currentValue = +event.target.value;
   const currentUnit = event.target.name;
 
@@ -23,7 +23,7 @@ export function computeTemp(event) {
 
     celsiusEl.value = (currentValue - 273.32).toFixed(2);
     fahrenheitEl.value = ((currentValue - 273.32) * 1.8 + 32).toFixed(2);
-    
+
   }
 }
 
