@@ -10,3 +10,6 @@
 
 https://maryhbb.github.io/temperature-converter/
 
+## Screenshot
+
+![](images/temp.png)
