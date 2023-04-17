@@ -8,6 +8,5 @@
 ## Demo
 
 
-https://github.com/maryhbb/temperature-converter
-
+https://maryhbb.github.io/temperature-converter/
 
