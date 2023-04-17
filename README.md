@@ -1,4 +1,4 @@
-# temperature-converter
+# Temperature Converter
 
 
 ![](https://github.com/maryhbb/temperature-converter/actions/workflows/workflow.yml/badge.svg)
